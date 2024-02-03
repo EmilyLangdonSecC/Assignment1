@@ -1,0 +1,320 @@
+@font-face {
+    font-family: Mogent;
+    src: url(Mogent.otf);
+}
+
+@font-face {
+    font-family: AngerStyles;
+    src: url(AngerStyles.ttf);
+}
+
+body {
+    background-color: #151415;
+}
+
+p {
+    color: white;
+    font-family: Mogent;
+    letter-spacing: 0.2em;
+    line-height: 150%;
+    text-align: center;
+}
+
+h2 {
+    color: #ff8313;
+    font-family: AngerStyles;
+    text-align: center;
+}
+
+.top-block {
+    display: block;
+    background-color: rgb(17, 16, 16);
+    padding-bottom: 1.5%;
+    padding-top: 0.1%;
+}
+
+.top-text {
+    width: 80%;
+    margin: auto
+}
+
+/*header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 0.5;
+}
+
+.site-name {
+    margin-right: auto;
+    text-decoration: none;
+    color: #ff8313;
+    font-family: AngerStyles;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ff8313;
+    font-size: large;
+    font-family: Mogent;
+    letter-spacing: 0.1em;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.foot {
+    text-decoration: none;
+    color: #ff8313;
+    font-family: Mogent;
+    letter-spacing: 0.1em;
+}
+
+.foot:hover {
+    text-decoration: underline;
+}
+
+/*home page*/
+
+.flex-concert {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.concert {
+    width: 80%;
+    height: auto;
+}
+
+.home-text {
+    width: 80%;
+}
+
+.audio-element {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feedback-form {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(17, 16, 16);
+}
+
+.textarea-text {
+    text-align: center;
+}
+
+textarea {
+    display: block;
+    resize: none;
+    width: 40%;
+    background-color: #151415;
+    color: white;
+    border-color: #ff8313;
+    margin: auto;
+    font-family: Mogent;
+    letter-spacing: 0.1em;
+}
+
+input {
+    display: block;
+    width: 40%;
+    background-color: #151415;
+    color: white;
+    border-color: #ff8313;
+    margin: auto;
+    font-family: Mogent;
+    letter-spacing: 0.1em;
+}
+
+button {
+    display: block;
+    background-color: #ff8313;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    font-family: Mogent;
+    letter-spacing: 0.1em;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+/*k-pop page*/
+
+.flex-kpop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.kpop-text {
+    width: 40%;
+}
+
+.kpop-left {
+    width: 40%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    padding-right: 1%;
+}
+
+.kpop-right {
+    width: 40%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    padding-left: 1%;
+}
+
+/*vocal page*/
+
+.vocal-video {
+    width: 40%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.vocal-text {
+    width: 40%;
+    text-align: center;
+}
+
+.flex-vocal {
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*metal page*/
+
+.metal-list-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 1%;
+}
+
+.metal-list {
+    display: block;
+    color: white;
+    font-family: Mogent;
+    letter-spacing: 0.2em;
+    line-height: 150%;
+}
+
+.battle-beast-members {
+    width: 55%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.grid-metal {
+    display: grid;
+    grid-template-columns: repeat(3, 32.7%);
+    column-gap: 1%;
+    row-gap: 1%;
+}
+
+.song {
+    aspect-ratio: 16 / 9;
+    padding-bottom: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+/*ghost page*/
+
+.ghost-members {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.ghost-text {
+    width: 80%;
+    margin: auto;
+}
+
+.table-div {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th,
+td {
+    border: 1px solid black
+}
+
+th {
+    background-color: #ff8313;
+    color: rgb(17, 16, 16);
+    font-family: Mogent;
+    letter-spacing: 0.2em;
+    line-height: 150%;
+}
+
+td {
+    background-color: rgb(17, 16, 16);
+    color: white;
+    font-family: Mogent;
+    letter-spacing: 0.2em;
+    line-height: 150%;
+    text-align: center;
+}
+
+.flex-ghost {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.ghost-video {
+    width: 40%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.ghost-albums-text {
+    width: 40%;
+}
+
+ol {
+    color: white;
+    font-family: Mogent;
+    letter-spacing: 0.2em;
+    line-height: 150%;
+}
